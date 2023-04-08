@@ -16,6 +16,7 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
         </Box>
       ))}
     </HStack>
+    
   );
 };
 

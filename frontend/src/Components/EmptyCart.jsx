@@ -18,6 +18,7 @@ const EmptyCart = () => {
           <Icon as={ArrowBackIcon} color="white" />
           &nbsp; Continue to Shipping
         </Button>
+        
       </Box>
     </Box>
   );
