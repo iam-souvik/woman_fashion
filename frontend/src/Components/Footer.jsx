@@ -11,13 +11,13 @@ const links = [
 ];
 const accounts = [
   {
-    url: "https://github.com/SouravBandyopadhyay",
+    url: "https://github.com/iam-souvik",
     label: "Github Account",
     type: "gray",
     icon: <FaGithub />,
   },
   {
-    url: "https://www.linkedin.com/in/souravbandyopadhyay/",
+    url: "https://www.linkedin.com/in/souvik-patra-86b2b7166/",
     label: "LinkedIn Account",
     type: "linkedin",
     icon: <FaLinkedin />,
@@ -43,7 +43,7 @@ const Footer = () => {
         alt="StyleCraze"
       />
       {/* Desktop Screen */}
-      <SimpleGrid gridTemplateColumns={['1fr',"1fr 1fr","1fr 1fr 1fr 1fr 1fr 1fr"]} spacing={2} alignItems="center" d={{ base: "none", md: "flex" }}>
+      <SimpleGrid gridTemplateColumns={['1fr', "1fr 1fr", "1fr 1fr 1fr 1fr 1fr 1fr"]} spacing={2} alignItems="center" d={{ base: "none", md: "flex" }}>
         {links.map((link, index) => (
           <CustomLink key={index}>{link}</CustomLink>
         ))}
